@@ -196,6 +196,40 @@
     transform: translateY(-8px) rotate(-45deg);
   }
 }
+@media screen and (max-width: 375px) {
+  .navbar__toggle .bar {
+    padding: 0;
+    width: 25px;
+    height: 3px;
+  }
+  #mobile-menu {
+    margin-top: 0.3rem;
+    left: 300px;
+  }
+  #navbar__logo {
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    left: 5px;
+    padding: auto 0;
+  }
+}
+@media screen and (max-width: 281px) {
+  .navbar__toggle .bar {
+    padding: 0;
+    width: 25px;
+    height: 3px;
+  }
+  #mobile-menu {
+    margin-top: 0.25rem;
+    left: 230px;
+  }
+  #navbar__logo {
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    left: 5px;
+    padding: auto 0;
+  }
+}
 
 /* Hero Section CSS */
 
@@ -348,7 +382,9 @@
 .services {
   background: #141414;
   display: flex;
+  width: 100%;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   height: 200vh;
 }
@@ -364,7 +400,7 @@
     #1f2f98 100%
   );
   background-size: 100%;
-  margin-top: 2rem;
+  top: 1rem;
   margin-bottom: 5rem;
   font-size: 2.7rem;
   -webkit-background-clip: text;
@@ -436,77 +472,6 @@
     url("https://images.pexels.com/photos/601169/pexels-photo-601169.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
 }
 
-.services h2 {
-  position: absolute;
-  text-align: center;
-  top: 35px;
-  left: 120px;
-  background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-#hotel h2 {
-  position: absolute;
-  text-align: center;
-  top: 35px;
-  left: 125px;
-  background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-
-#bank h2 {
-  position: absolute;
-  text-align: center;
-  top: 35px;
-  left: 12px;
-  background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-
-#gov h2 {
-  position: absolute;
-  text-align: center;
-  top: 35px;
-  left: 30px;
-  background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-
-#mall h2 {
-  position: absolute;
-  text-align: center;
-  top: 35px;
-  left: 50px;
-  background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-
-#res h2 {
-  position: absolute;
-  text-align: center;
-  top: 35px;
-  left: 80px;
-  background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
-}
-
 .text__op {
   position: absolute;
   margin-right: 20px;
@@ -555,6 +520,86 @@
   cursor: pointer;
 }
 
+@media screen and (max-width: 1500px) {
+  .services {
+    height: 300vh;
+  }
+  .services h1 {
+    font-size: 2rem;
+    margin-top: 12rem;
+    text-align: center;
+  }
+  .services h2 {
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    left: 120px;
+    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+  #hotel h2 {
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    left: 125px;
+    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+  #bank h2 {
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    left: 12px;
+    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+  #gov h2 {
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    left: 30px;
+    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+  #mall h2 {
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    left: 50px;
+    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+  #res h2 {
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    left: 80px;
+    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+}
 @media screen and (max-width: 1150px) {
   .services {
     height: 300vh;
@@ -563,6 +608,76 @@
     font-size: 2rem;
     margin-top: 12rem;
     text-align: center;
+  }
+  .services h2 {
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    left: 120px;
+    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+  #hotel h2 {
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    left: 125px;
+    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+  #bank h2 {
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    left: 12px;
+    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+  #gov h2 {
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    left: 30px;
+    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+  #mall h2 {
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    left: 50px;
+    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+  #res h2 {
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    left: 80px;
+    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
   }
 }
 
@@ -618,7 +733,7 @@
   }
 }
 
-@media screen and(max-width:480px) {
+@media screen and (max-width: 480px) {
   .services {
     height: 350vh;
   }
@@ -628,6 +743,189 @@
   }
   .services__card {
     width: 300px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .services {
+    height: 360vh;
+  }
+  .services h1 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .services h2 {
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    left: 120px;
+    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+  #hotel h2 {
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    left: 110px;
+    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+  #bank h2 {
+    position: absolute;
+    text-align: center;
+    top: 5px;
+    left: 12px;
+    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+  #gov h2 {
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    left: 7px;
+    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+  #mall h2 {
+    position: absolute;
+    text-align: center;
+    top: 10px;
+    left: 30px;
+    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+
+  #res h2 {
+    position: absolute;
+    text-align: center;
+    top: 30px;
+    left: 60px;
+    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-text-fill-color: transparent;
+  }
+  .services__card {
+    width: 300px;
+  }
+  .services__card h2 {
+    left: 100px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .services {
+    height: 230rem;
+    display: flex;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+  }
+  .services h1 {
+    font-size: 1.5rem;
+  }
+  .services__card {
+    width: 300px;
+    margin: 0.5rem;
+    height: 525px;
+  }
+  .services h2 {
+    left: 100px;
+  }
+  #hotel h2 {
+    left: 105px;
+  }
+  #bank h2 {
+    left: 6px;
+    top: 10px;
+  }
+  #gov h2 {
+    left: 10px;
+    top: 10px;
+  }
+  #mall h2 {
+    left: 30px;
+    top: 10px;
+  }
+  #res h2 {
+    left: 60px;
+  }
+  .text {
+    font-size: 0.8rem;
+    top: 370px;
+  }
+  .text__op {
+    font-size: 0.8rem;
+    top: 370px;
+  }
+}
+@media screen and (max-width: 281px) {
+  .services {
+    height: 550vh;
+    display: flex;
+  }
+  .services h1 {
+    font-size: 1.2rem;
+  }
+  .services__card {
+    width: 250px;
+    margin: 1rem;
+    height: 500px;
+  }
+  .services__card a {
+    top: 400px;
+    left: 20px;
+  }
+  .services__card h2 {
+    left: 75px;
+  }
+  .services__card p {
+    top: 360px;
+    left: 15px;
+  }
+  #hotel h2 {
+    left: 80px;
+  }
+  #bank h2 {
+    left: 6px;
+    top: 10px;
+  }
+  #gov h2 {
+    left: 10px;
+    top: 10px;
+  }
+  #mall h2 {
+    left: 10px;
+    top: 10px;
+  }
+  #res h2 {
+    left: 30px;
+  }
+  .text {
+    font-size: 0.8rem;
+    top: 370px;
+  }
+  .text__op {
+    font-size: 0.8rem;
+    top: 370px;
   }
 }
 
@@ -752,9 +1050,20 @@
   color: #fff;
 }
 
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 860px) {
   .footer__links {
     padding-top: 2rem;
+  }
+  .footer__link--items {
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2.4rem;
+  }
+  .footer__link--items h3 {
+    display: none;
   }
   #footer__logo {
     margin-bottom: 2rem;
@@ -764,7 +1073,7 @@
   }
 
   .footer__link--wrapper {
-    flex-direction: column;
+    flex-direction: flex;
   }
 
   .social__media--wrap {
@@ -772,10 +1081,86 @@
   }
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 650px) {
   .footer__link--items {
+    font-size: 0.85rem;
+    padding: 5px;
+    width: 80%;
     margin: 0;
-    padding: 10px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .footer__link--items {
+    font-size: 0.7rem;
+    padding: 5px;
     width: 100%;
+    align-items: center;
+    margin: 0;
+  }
+  .footer__link--items h2 {
+    font-size: 1.2rem;
+    align-items: center;
+    margin: 0;
+  }
+  #email {
+    color: #131313;
+  }
+}
+@media screen and (max-width: 375px) {
+  .footer__link--items {
+    font-size: 0.6rem;
+    padding: 7px;
+    width: 100%;
+    align-items: baseline;
+    margin: 0;
+  }
+  .footer__link--items h2 {
+    font-size: 1rem;
+    align-items: baseline;
+    margin-right: 0.7rem;
+  }
+  #email {
+    color: #131313;
+  }
+  .website__right {
+    font-size: 0.75rem;
+    margin-right: 3rem;
+  }
+  #footer__logo {
+    font-size: 1.2rem;
+    margin-right: 3rem;
+  }
+  .social__icons {
+    width: 60%;
+    margin-right: 3rem;
+  }
+}
+@media screen and (max-width: 280px) {
+  .footer__link--items {
+    font-size: 0.5rem;
+    padding: 5px;
+    width: 100%;
+    align-items: baseline;
+    margin: 0;
+  }
+  .footer__link--items h2 {
+    font-size: 0.8rem;
+    align-items: baseline;
+    margin-right: 0.6rem;
+  }
+  #email {
+    color: #131313;
+  }
+  .website__right {
+    font-size: 0.488rem;
+    margin-left: 50px;
+  }
+  #footer__logo {
+    font-size: 1.2rem;
+    margin-left: 50px;
+  }
+  .social__icons {
+    width: 80%;
+    margin-left: 50px;
   }
 }
