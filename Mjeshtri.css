@@ -52,6 +52,7 @@
   align-items: center;
   list-style: none;
   text-align: center;
+  margin-top: 15px;
 }
 
 .ac-navbar__item {
