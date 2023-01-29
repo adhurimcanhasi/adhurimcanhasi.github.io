@@ -494,9 +494,10 @@
 
 .ac-services__card p {
   position: absolute;
-  top: 410px;
+  top: 380px;
   left: 40px;
   font-weight: 500;
+  font-size: 1.1rem;
 }
 
 .ac-services__card a {
@@ -571,6 +572,10 @@
     width: 300px;
     margin: 1rem;
     height: 525px;
+  }
+  .ac-services__card h2 {
+    top: 370px;
+    left: 5px;
   }
 }
 @media screen and (max-width: 280px) {
@@ -1290,22 +1295,29 @@
     left: 100px;
   }
   #ac-hotel h2 {
-    left: 105px;
+    display: flex;
+    align-items: center;
+    text-align: center;
   }
   #ac-bank h2 {
-    left: 6px;
-    top: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
   }
   #ac-gov h2 {
-    left: 10px;
+    position: absolute;
+    left: 1px;
     top: 10px;
   }
   #ac-mall h2 {
-    left: 30px;
-    top: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
   }
   #ac-res h2 {
-    left: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
   }
   .ac-services__card-wp2 p {
     top: 280px;
@@ -1587,65 +1599,6 @@
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
   }
-  #ac-hotel h2 {
-    position: absolute;
-    text-align: center;
-    top: 35px;
-    left: 125px;
-    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-  }
-
-  #ac-bank h2 {
-    position: absolute;
-    text-align: center;
-    top: 35px;
-    left: 12px;
-    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-  }
-
-  #ac-gov h2 {
-    position: absolute;
-    text-align: center;
-    top: 35px;
-    left: 30px;
-    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-  }
-
-  #ac-mall h2 {
-    position: absolute;
-    text-align: center;
-    top: 35px;
-    left: 50px;
-    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-  }
-
-  #ac-res h2 {
-    position: absolute;
-    text-align: center;
-    top: 35px;
-    left: 80px;
-    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-  }
 }
 @media screen and (max-width: 1150px) {
   .ac-services-wp3 {
@@ -1661,65 +1614,6 @@
     text-align: center;
     top: 35px;
     left: 120px;
-    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-  }
-  #ac-hotel h2 {
-    position: absolute;
-    text-align: center;
-    top: 35px;
-    left: 125px;
-    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-  }
-
-  #ac-bank h2 {
-    position: absolute;
-    text-align: center;
-    top: 35px;
-    left: 12px;
-    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-  }
-
-  #ac-gov h2 {
-    position: absolute;
-    text-align: center;
-    top: 35px;
-    left: 30px;
-    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-  }
-
-  #ac-mall h2 {
-    position: absolute;
-    text-align: center;
-    top: 35px;
-    left: 50px;
-    background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
-  }
-
-  #ac-res h2 {
-    position: absolute;
-    text-align: center;
-    top: 35px;
-    left: 80px;
     background-image: linear-gradient(to right, #870000 0%, #190a05 100%);
     -webkit-background-clip: text;
     -moz-background-clip: text;
